@@ -1,17 +1,12 @@
-/* ==========================================================================
-   Media Query Template
-   Major screen size breakpoints (mobile-first approach)
-   ========================================================================== */
-
 /* --------------------------------------------------------------------------
-   Breakpoint reference:
-   Extra small (phones):        < 576px   (no media query needed, base styles)
-   Small (large phones):        >= 576px
-   Medium (tablets):            >= 768px
-   Large (small laptops):       >= 992px
-   Extra large (desktops):      >= 1200px
-   XX-Large (large desktops):   >= 1400px
-   -------------------------------------------------------------------------- */
+  Breakpoint reference:
+  Extra small (phones):        < 576px   (no media query needed, base styles)
+  Small (large phones):        >= 576px
+  Medium (tablets):            >= 768px
+  Large (small laptops):       >= 992px
+  Extra large (desktops):      >= 1200px
+  XX-Large (large desktops):   >= 1400px
+-------------------------------------------------------------------------- */
 
 /* Base styles (mobile-first, applies to all screens by default) */
 nav {
@@ -96,64 +91,4 @@ nav {
     margin-top: var(--space-2xl);
     margin-bottom: var(--space-2xl);
   }
-}
-
-/* Extra large devices (desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
-
-/* XX-Large devices (large desktops, 1400px and up) */
-@media (min-width: 1400px) {
-}
-
-
-/* ==========================================================================
-   Desktop-first alternative (max-width) — use ONE approach, not both
-   Uncomment below if you prefer designing desktop-first instead
-   ========================================================================== */
-
-/*
-@media (max-width: 1399.98px) {
-  body { }
-}
-
-@media (max-width: 1199.98px) {
-  body { }
-}
-
-@media (max-width: 991.98px) {
-  body { }
-}
-
-@media (max-width: 767.98px) {
-  body { }
-}
-
-@media (max-width: 575.98px) {
-  body { }
-}
-*/
-
-
-/* ==========================================================================
-   Other useful media features
-   ========================================================================== */
-
-/* Orientation */
-@media (orientation: landscape) {
-}
-
-@media (orientation: portrait) {
-}
-
-/* High-resolution / Retina screens */
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-}
-
-/* Dark mode preference */
-@media (prefers-color-scheme: dark) {
-}
-
-/* Print styles */
-@media print {
 }
